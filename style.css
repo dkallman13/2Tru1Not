@@ -1,0 +1,35 @@
+h1{
+    color: lightgreen;
+    text-align: center;
+}
+body{
+    height: 100%;
+    width :100%;
+}
+h3{
+    color: blue;
+}
+p{
+    color:red;
+}
+#main{
+    border: thick black solid;
+    border-radius: 100px;
+    background-color: gray;
+    height: 90%;
+    width: 90%;
+    }
+#statements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+#main #statements .sub{
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 0;
+    width: 30%;
+    height: 20%;
+}
